@@ -1,0 +1,90 @@
+﻿@model Meetly.Core.Application.ViewModels.User.AddUserViewModel
+
+@{
+    ViewData["Title"] = "Register";
+    Layout = null;
+}
+
+<link rel="stylesheet" href="~/css/RegisterStyles.css" asp-append-version="true" />
+
+<section>
+    <div class="form-box">
+        <div class="form-value">
+            <!-- Agregar el atributo enctype para manejar archivos -->
+            <form asp-action="Register" asp-controller="Register" method="post" enctype="multipart/form-data">
+                <h2>Register </h2>
+
+                <!-- Nombre y apellido -->
+                <div class="row">
+                    <div class="inputbox">
+                        <ion-icon name="person-outline"></ion-icon>
+                        <input asp-for="Name" required>
+                        <label asp-for="Name">Name</label>
+                        <span asp-validation-for="Name" class="text-danger"></span>
+                    </div>
+                    <div class="inputbox">
+                        <ion-icon name="people-outline"></ion-icon>
+                        <input asp-for="LastName" required>
+                        <label asp-for="LastName">Last Name</label>
+                        <span asp-validation-for="LastName" class="text-danger"></span>
+                    </div>
+                </div>
+
+                <!-- Correo y Nombre de usuario -->
+                <div class="row">
+                    <div class="inputbox">
+                        <ion-icon name="mail-outline"></ion-icon>
+                        <input asp-for="Email" type="email" required>
+                        <label asp-for="Email">Email</label>
+                        <span asp-validation-for="Email" class="text-danger"></span>
+                    </div>
+                    <div class="inputbox">
+                        <ion-icon name="person-circle-outline"></ion-icon>
+                        <input asp-for="UserName" required>
+                        <label asp-for="UserName">Username</label>
+                        <span asp-validation-for="UserName" class="text-danger"></span>
+                    </div>
+                </div>
+
+                <!-- Teléfono -->
+                <div class="inputbox">
+                    <ion-icon name="call-outline"></ion-icon>
+                    <input asp-for="PhoneNumber" required>
+                    <label asp-for="PhoneNumber">Phone Number</label>
+                    <span asp-validation-for="PhoneNumber" class="text-danger"></span>
+                </div>
+
+                <!-- Foto de perfil -->
+                <div class="">
+                    <input asp-for="ProfilePicture" type="file" required>
+                </div>
+
+                <!-- Contraseña y Confirmación de contraseña -->
+                <div class="row">
+                    <div class="inputbox">
+                        <ion-icon name="lock-closed-outline"></ion-icon>
+                        <input asp-for="Password" type="password" required>
+                        <label asp-for="Password">Password</label>
+                        <span asp-validation-for="Password" class="text-danger"></span>
+                    </div>
+                    <div class="inputbox">
+                        <ion-icon name="lock-closed-outline"></ion-icon>
+                        <input asp-for="ConfirmPassword" type="password" required>
+                        <label asp-for="ConfirmPassword">Confirm Password</label>
+                        <span asp-validation-for="ConfirmPassword" class="text-danger"></span>
+                    </div>
+                </div>
+
+                <!-- Botón de registro -->
+                <button type="submit">Register</button>
+
+                <!-- Enlace al login -->
+                <div class="register">
+                    <p>You have an account? <a asp-controller="Login" asp-action="LoginView">Login</a></p>
+                </div>
+            </form>
+        </div>
+    </div>
+</section>
+
+

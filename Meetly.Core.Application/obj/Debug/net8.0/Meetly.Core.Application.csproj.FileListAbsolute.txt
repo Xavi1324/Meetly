@@ -1,0 +1,16 @@
+C:\Proyecto\Meetly\Meetly.Core.Application\bin\Debug\net8.0\Meetly.Core.Application.deps.json
+C:\Proyecto\Meetly\Meetly.Core.Application\bin\Debug\net8.0\Meetly.Core.Application.dll
+C:\Proyecto\Meetly\Meetly.Core.Application\bin\Debug\net8.0\Meetly.Core.Application.pdb
+C:\Proyecto\Meetly\Meetly.Core.Application\bin\Debug\net8.0\Meetly.Core.Domain.dll
+C:\Proyecto\Meetly\Meetly.Core.Application\bin\Debug\net8.0\Meetly.Core.Domain.pdb
+C:\Proyecto\Meetly\Meetly.Core.Application\obj\Debug\net8.0\Meetly.Core.Application.csproj.AssemblyReference.cache
+C:\Proyecto\Meetly\Meetly.Core.Application\obj\Debug\net8.0\Meetly.Core.Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\Proyecto\Meetly\Meetly.Core.Application\obj\Debug\net8.0\Meetly.Core.Application.AssemblyInfoInputs.cache
+C:\Proyecto\Meetly\Meetly.Core.Application\obj\Debug\net8.0\Meetly.Core.Application.AssemblyInfo.cs
+C:\Proyecto\Meetly\Meetly.Core.Application\obj\Debug\net8.0\Meetly.Core.Application.csproj.CoreCompileInputs.cache
+C:\Proyecto\Meetly\Meetly.Core.Application\obj\Debug\net8.0\Meetly.Core.Application.sourcelink.json
+C:\Proyecto\Meetly\Meetly.Core.Application\obj\Debug\net8.0\Meetly.C.9BC82354.Up2Date
+C:\Proyecto\Meetly\Meetly.Core.Application\obj\Debug\net8.0\Meetly.Core.Application.dll
+C:\Proyecto\Meetly\Meetly.Core.Application\obj\Debug\net8.0\refint\Meetly.Core.Application.dll
+C:\Proyecto\Meetly\Meetly.Core.Application\obj\Debug\net8.0\Meetly.Core.Application.pdb
+C:\Proyecto\Meetly\Meetly.Core.Application\obj\Debug\net8.0\ref\Meetly.Core.Application.dll

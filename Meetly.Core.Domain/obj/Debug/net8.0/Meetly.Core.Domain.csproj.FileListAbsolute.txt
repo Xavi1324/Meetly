@@ -1,0 +1,12 @@
+C:\Proyecto\Meetly\Meetly.Core.Domain\bin\Debug\net8.0\Meetly.Core.Domain.deps.json
+C:\Proyecto\Meetly\Meetly.Core.Domain\bin\Debug\net8.0\Meetly.Core.Domain.dll
+C:\Proyecto\Meetly\Meetly.Core.Domain\bin\Debug\net8.0\Meetly.Core.Domain.pdb
+C:\Proyecto\Meetly\Meetly.Core.Domain\obj\Debug\net8.0\Meetly.Core.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Proyecto\Meetly\Meetly.Core.Domain\obj\Debug\net8.0\Meetly.Core.Domain.AssemblyInfoInputs.cache
+C:\Proyecto\Meetly\Meetly.Core.Domain\obj\Debug\net8.0\Meetly.Core.Domain.AssemblyInfo.cs
+C:\Proyecto\Meetly\Meetly.Core.Domain\obj\Debug\net8.0\Meetly.Core.Domain.csproj.CoreCompileInputs.cache
+C:\Proyecto\Meetly\Meetly.Core.Domain\obj\Debug\net8.0\Meetly.Core.Domain.sourcelink.json
+C:\Proyecto\Meetly\Meetly.Core.Domain\obj\Debug\net8.0\Meetly.Core.Domain.dll
+C:\Proyecto\Meetly\Meetly.Core.Domain\obj\Debug\net8.0\refint\Meetly.Core.Domain.dll
+C:\Proyecto\Meetly\Meetly.Core.Domain\obj\Debug\net8.0\Meetly.Core.Domain.pdb
+C:\Proyecto\Meetly\Meetly.Core.Domain\obj\Debug\net8.0\ref\Meetly.Core.Domain.dll

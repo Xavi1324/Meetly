@@ -1,10 +1,57 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
-VisualStudioVersion = 17.12.35707.178 d17.12
+VisualStudioVersion = 17.12.35707.178
 MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Meetly.Core.Domain", "Meetly.Core.Domain\Meetly.Core.Domain.csproj", "{950AAFF0-E949-479C-AD3E-21F87CC0477D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Meetly", "MeetlyWeb\Meetly.csproj", "{10F720B1-CD7A-4E4B-A5B3-222E527003E5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Meetly.Infrastructure.Persistence", "Meetly.Infrastructure.Persistence\Meetly.Infrastructure.Persistence.csproj", "{1D0D3063-86DB-4F35-A72C-1F79528CE02B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{A24C4D55-ABE6-4D2A-A204-2E900EA2131A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Core", "Core", "{B3EABE26-F35C-4164-8611-038E3BFD7521}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infrastructure", "Infrastructure", "{7177BEFC-DE89-4E71-8448-232B90B6CDA1}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Presentation", "Presentation", "{E20A181E-4F05-4A4C-A4D2-80A2E2DDC3D1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Meetly.Core.Application", "Meetly.Core.Application\Meetly.Core.Application.csproj", "{6B9FE0C5-44EE-42CE-8DE5-63C07006D746}"
+EndProject
 Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{950AAFF0-E949-479C-AD3E-21F87CC0477D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{950AAFF0-E949-479C-AD3E-21F87CC0477D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{950AAFF0-E949-479C-AD3E-21F87CC0477D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{950AAFF0-E949-479C-AD3E-21F87CC0477D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{10F720B1-CD7A-4E4B-A5B3-222E527003E5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{10F720B1-CD7A-4E4B-A5B3-222E527003E5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{10F720B1-CD7A-4E4B-A5B3-222E527003E5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{10F720B1-CD7A-4E4B-A5B3-222E527003E5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1D0D3063-86DB-4F35-A72C-1F79528CE02B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1D0D3063-86DB-4F35-A72C-1F79528CE02B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1D0D3063-86DB-4F35-A72C-1F79528CE02B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1D0D3063-86DB-4F35-A72C-1F79528CE02B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6B9FE0C5-44EE-42CE-8DE5-63C07006D746}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6B9FE0C5-44EE-42CE-8DE5-63C07006D746}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6B9FE0C5-44EE-42CE-8DE5-63C07006D746}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6B9FE0C5-44EE-42CE-8DE5-63C07006D746}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{950AAFF0-E949-479C-AD3E-21F87CC0477D} = {B3EABE26-F35C-4164-8611-038E3BFD7521}
+		{10F720B1-CD7A-4E4B-A5B3-222E527003E5} = {E20A181E-4F05-4A4C-A4D2-80A2E2DDC3D1}
+		{1D0D3063-86DB-4F35-A72C-1F79528CE02B} = {7177BEFC-DE89-4E71-8448-232B90B6CDA1}
+		{B3EABE26-F35C-4164-8611-038E3BFD7521} = {A24C4D55-ABE6-4D2A-A204-2E900EA2131A}
+		{7177BEFC-DE89-4E71-8448-232B90B6CDA1} = {A24C4D55-ABE6-4D2A-A204-2E900EA2131A}
+		{E20A181E-4F05-4A4C-A4D2-80A2E2DDC3D1} = {A24C4D55-ABE6-4D2A-A204-2E900EA2131A}
+		{6B9FE0C5-44EE-42CE-8DE5-63C07006D746} = {B3EABE26-F35C-4164-8611-038E3BFD7521}
 	EndGlobalSection
 EndGlobal
