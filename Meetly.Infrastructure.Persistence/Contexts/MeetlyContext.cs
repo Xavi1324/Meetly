@@ -39,6 +39,7 @@ namespace Meetly.Infrastructure.Persistence.Contexts
                 entity.Property(u => u.LastName).IsRequired().HasMaxLength(50);
                 entity.Property(u => u.PhoneNumber).IsRequired().HasMaxLength(20);
                 entity.Property(u => u.Email).IsRequired().HasMaxLength(150);
+                entity.HasIndex(u => u.Email).IsUnique();
                 entity.Property(u => u.ProfilePicture).IsRequired().HasMaxLength(250);
                 entity.Property(u => u.UserName).IsRequired().HasMaxLength(50);
                 entity.HasIndex(u => u.UserName).IsUnique();

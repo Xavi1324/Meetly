@@ -253,6 +253,34 @@
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
     },
     {
+      "Id": "C:\\Proyecto\\Meetly\\MeetlyWeb\\wwwroot\\uploads\\22512ce3-3a62-4ba4-996b-9878ec80e43e.png",
+      "PackagePath": "staticwebassets\\uploads\\22512ce3-3a62-4ba4-996b-9878ec80e43e.png"
+    },
+    {
+      "Id": "C:\\Proyecto\\Meetly\\MeetlyWeb\\wwwroot\\uploads\\2b9d1c6c-cf67-4632-9a8f-dd84cd3ce467.jpg",
+      "PackagePath": "staticwebassets\\uploads\\2b9d1c6c-cf67-4632-9a8f-dd84cd3ce467.jpg"
+    },
+    {
+      "Id": "C:\\Proyecto\\Meetly\\MeetlyWeb\\wwwroot\\uploads\\5187e5a4-4051-49ee-b578-2f35910a65f3.jpg",
+      "PackagePath": "staticwebassets\\uploads\\5187e5a4-4051-49ee-b578-2f35910a65f3.jpg"
+    },
+    {
+      "Id": "C:\\Proyecto\\Meetly\\MeetlyWeb\\wwwroot\\uploads\\6474f4fa-7687-4c19-91da-eed6bb8a495a.jpg",
+      "PackagePath": "staticwebassets\\uploads\\6474f4fa-7687-4c19-91da-eed6bb8a495a.jpg"
+    },
+    {
+      "Id": "C:\\Proyecto\\Meetly\\MeetlyWeb\\wwwroot\\uploads\\ba3f7d1c-adae-4738-aaf4-ad002390bd27.png",
+      "PackagePath": "staticwebassets\\uploads\\ba3f7d1c-adae-4738-aaf4-ad002390bd27.png"
+    },
+    {
+      "Id": "C:\\Proyecto\\Meetly\\MeetlyWeb\\wwwroot\\uploads\\c502461d-a9b4-48b7-add5-4983283f7bcc.png",
+      "PackagePath": "staticwebassets\\uploads\\c502461d-a9b4-48b7-add5-4983283f7bcc.png"
+    },
+    {
+      "Id": "C:\\Proyecto\\Meetly\\MeetlyWeb\\wwwroot\\uploads\\cd08ff0a-0b9a-4bff-82b6-7941bfc89950.jpg",
+      "PackagePath": "staticwebassets\\uploads\\cd08ff0a-0b9a-4bff-82b6-7941bfc89950.jpg"
+    },
+    {
       "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.Meetly.Microsoft.AspNetCore.StaticWebAssetEndpoints.props",
       "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssetEndpoints.props"
     },

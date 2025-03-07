@@ -21,46 +21,53 @@ namespace SaludPro.Controllers
         }
 
         [HttpPost]
-        
-        public async Task<IActionResult> Register(AddUserViewModel model, IFormFile ProfilePicture)
+        public async Task<IActionResult> Register(AddUserViewModel model)
         {
             if (!ModelState.IsValid)
             {
                 return View(model);
             }
 
-            string profilePicturePath = null;
-            if (ProfilePicture != null && ProfilePicture.Length > 0)
+            try
             {
-                var uploadsFolder = Path.Combine(Directory.GetCurrentDirectory(), "wwwroot/uploads");
-                Directory.CreateDirectory(uploadsFolder);
-                profilePicturePath = Path.Combine(uploadsFolder, ProfilePicture.FileName);
-
-                using (var stream = new FileStream(profilePicturePath, FileMode.Create))
+                string profilePicturePath = null;
+                if (model.ProfilePicture != null && model.ProfilePicture.Length > 0)
                 {
-                    await ProfilePicture.CopyToAsync(stream);
+                    var uploadsFolder = Path.Combine(Directory.GetCurrentDirectory(), "wwwroot/uploads");
+                    Directory.CreateDirectory(uploadsFolder); // Asegurar que el directorio existe
+
+                    var fileName = Guid.NewGuid().ToString() + Path.GetExtension(model.ProfilePicture.FileName);
+                    var filePath = Path.Combine(uploadsFolder, fileName);
+
+                    using (var stream = new FileStream(filePath, FileMode.Create))
+                    {
+                        await model.ProfilePicture.CopyToAsync(stream);
+                    }
+
+                    profilePicturePath = "/uploads/" + fileName;
                 }
 
-                // Guardamos la ruta de la imagen en el modelo
-                model.ProfilePicture = "/uploads/" + ProfilePicture.FileName;
+                var newUser = new Users
+                {
+                    Name = model.Name,
+                    LastName = model.LastName,
+                    Email = model.Email,
+                    UserName = model.UserName,
+                    PhoneNumber = model.PhoneNumber,
+                    ProfilePicture = profilePicturePath,
+                    Password = model.Password
+                };
+
+                await _userService.RegisterAsync(newUser);
+
+                return RedirectToAction("LoginView", "Login");
             }
-
-            var newUser = new Users
+            catch (Exception ex)
             {
-                Name = model.Name,
-                LastName = model.LastName,
-                Email = model.Email,
-                UserName = model.UserName,
-                PhoneNumber = model.PhoneNumber,
-                ProfilePicture = model.ProfilePicture,
-                Password = model.Password
-            };
-
-            await _userService.Add(newUser);
-
-            return RedirectToAction("LoginView", "Login");
+                ModelState.AddModelError(string.Empty, ex.Message);
+                return View(model);
+            }
         }
-
 
     }
 }

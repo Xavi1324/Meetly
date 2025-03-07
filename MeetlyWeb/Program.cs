@@ -1,5 +1,6 @@
 using Meetly.Core.Application;
 using Meetly.Infrastructure.Persistence;
+using Meetly.Infrastructure.Shared;
 using Microsoft.EntityFrameworkCore;
 
 
@@ -8,8 +9,10 @@ var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 builder.Services.AddControllersWithViews();
+
 builder.Services.AddApplication();
 builder.Services.AddPersitence(builder.Configuration);
+builder.Services.AddSharedInfrastructure(builder.Configuration);
 
 
 var app = builder.Build();

@@ -10,6 +10,7 @@
     <ProjectReference Include="..\Meetly.Core.Application\Meetly.Core.Application.csproj" />
     <ProjectReference Include="..\Meetly.Core.Domain\Meetly.Core.Domain.csproj" />
     <ProjectReference Include="..\Meetly.Infrastructure.Persistence\Meetly.Infrastructure.Persistence.csproj" />
+    <ProjectReference Include="..\Meetly.Infrastructure.Shared\Meetly.Infrastructure.Shared.csproj" />
   </ItemGroup>
 
   <ItemGroup>

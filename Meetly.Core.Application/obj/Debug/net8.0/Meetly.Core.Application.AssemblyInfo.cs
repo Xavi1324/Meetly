@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Meetly.Core.Application")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+9ceeea35184d110a674f3335e530bd2f83c3a531")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+2fd87caf948729a78f9120fa9e4a94696c205aec")]
 [assembly: System.Reflection.AssemblyProductAttribute("Meetly.Core.Application")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Meetly.Core.Application")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
