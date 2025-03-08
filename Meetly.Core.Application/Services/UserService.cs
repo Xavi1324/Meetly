@@ -9,30 +9,50 @@ using System.Threading.Tasks;
 using AutoMapper;
 using Meetly.Core.Application.Helpers;
 using Meetly.Core.Application.Dtos.Email;
+using Meetly.Core.Application.ViewModels.Login;
+using Meetly.Core.Application.ViewModels.User;
 namespace Meetly.Core.Application.Services
 {
     public class UserService : GenericService<Users>, IUserService
     {
-        private readonly IGenericRepository<Users> _userRepository;
+        private readonly IUserRepository _userRepository;
         private readonly IMailService _mailService;
 
-        public UserService(IGenericRepository<Users> userRepository , IMailService mailService) : base(userRepository)
+        public UserService(IUserRepository userRepository , IMailService mailService) : base(userRepository)
         {
             _userRepository = userRepository;
             _mailService = mailService;
 
         }
-
-        
+              
 
         public Task ActivateUserAsync(int userId)
         {
             throw new NotImplementedException();
         }
 
-        public Task<Users> LoginAsync(string username, string password)
+        public async Task<UserViewModel> Login(LoginViewModel loginView)
         {
-            throw new NotImplementedException();
+            Users users = await _userRepository.LoginAsync(loginView);
+            if (users == null)
+            {
+                throw new Exception("Usuario o contraseña incorrectos.");
+            }
+                
+
+            UserViewModel userView = new();
+            userView.Id = users.Id;
+            userView.Name = users.Name;
+            userView.LastName = users.LastName;
+            userView.Email = users.Email;
+            userView.PhoneNumber = users.PhoneNumber;
+            userView.ProfilePicture = users.ProfilePicture;
+            userView.UserName = users.UserName;
+            userView.Password = users.Password;
+
+
+            return userView;
+
         }
 
         public async Task<Users> RegisterAsync(Users user)
@@ -41,6 +61,8 @@ namespace Meetly.Core.Application.Services
             if (users.Any(u => u.UserName == user.UserName))
                 throw new Exception("El nombre de usuario ya existe.");
 
+            if(users.Any(u => u.Email == user.Email))
+                throw new Exception("El correo electrónico ya está registrado.");
             await _userRepository.AddAsync(user);
             await _mailService.SendAsync(new EmailRequest
             {

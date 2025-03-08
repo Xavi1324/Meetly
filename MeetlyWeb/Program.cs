@@ -9,7 +9,7 @@ var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 builder.Services.AddControllersWithViews();
-
+builder.Services.AddSession();
 builder.Services.AddApplication();
 builder.Services.AddPersitence(builder.Configuration);
 builder.Services.AddSharedInfrastructure(builder.Configuration);
@@ -29,11 +29,12 @@ app.UseHttpsRedirection();
 app.UseStaticFiles();
 
 app.UseRouting();
-
+app.UseSession();
 app.UseAuthorization();
 
 app.MapControllerRoute(
     name: "default",
+    //pattern: "{controller=Home}/{action=index}/{id?}");
     pattern: "{controller=Login}/{action=LoginView}/{id?}");
 
-app.Run();
+app.RunAsync();

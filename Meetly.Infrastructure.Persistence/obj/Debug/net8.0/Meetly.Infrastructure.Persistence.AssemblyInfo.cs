@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Meetly.Infrastructure.Persistence")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+2fd87caf948729a78f9120fa9e4a94696c205aec")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+3bae99d51e1c4f251939b61acaf4712405d1570e")]
 [assembly: System.Reflection.AssemblyProductAttribute("Meetly.Infrastructure.Persistence")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Meetly.Infrastructure.Persistence")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

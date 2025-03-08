@@ -1,7 +1,9 @@
 ﻿using Meetly.Core.Application.Helpers;
 using Meetly.Core.Application.Interfaces.Repositories;
+using Meetly.Core.Application.ViewModels.Login;
 using Meetly.Core.Domain.Entities;
 using Meetly.Infrastructure.Persistence.Contexts;
+using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -21,10 +23,18 @@ namespace Meetly.Infrastructure.Persistence.Repositories.User
 
         public override async Task AddAsync(Users entity)
         {
-            entity.Password = PasswordEncrytion.Encrypt(entity.Password);
+            entity.Password = PasswordEncrytion.ComputeSha265Hash(entity.Password);
             await base.AddAsync(entity);
-        }
 
+        }
+        public async Task<Users> LoginAsync(LoginViewModel loginVm)
+        {
+            string PasswordEncrypted = PasswordEncrytion.ComputeSha265Hash(loginVm.Password);
+            Users user =  await _context.Set<Users>().FirstOrDefaultAsync(u => u.Email == loginVm.Email && u.Password == PasswordEncrypted);
+            return user;
+
+
+        }
 
     }
 }

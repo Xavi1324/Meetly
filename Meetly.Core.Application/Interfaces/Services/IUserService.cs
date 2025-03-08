@@ -1,4 +1,6 @@
-﻿using Meetly.Core.Domain.Entities;
+﻿using Meetly.Core.Application.ViewModels.Login;
+using Meetly.Core.Application.ViewModels.User;
+using Meetly.Core.Domain.Entities;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -10,8 +12,8 @@ namespace Meetly.Core.Application.Interfaces.Services
     public interface IUserService : IGenericService<Users>
     {        
         Task<Users> RegisterAsync(Users user);
-        Task<Users> LoginAsync(string username, string password);
-        Task ActivateUserAsync(int userId);
-        Task ResetPasswordAsync(string username);
+        Task<UserViewModel> Login(LoginViewModel loginView);
+        //    Task ActivateUserAsync(int userId);
+        //    Task ResetPasswordAsync(string username);
     }
 }

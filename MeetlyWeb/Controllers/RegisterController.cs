@@ -17,7 +17,7 @@ namespace SaludPro.Controllers
         public IActionResult Register()
         {
             
-            return View();
+            return View( new AddUserViewModel());
         }
 
         [HttpPost]

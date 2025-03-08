@@ -1134,6 +1134,42 @@
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Meetly.rlifufz9xn.bundle.scp.css'))</OriginalItemSpec>
     </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\06a3b908-b598-46fe-a356-3f42edbad755.jpg'))">
+      <SourceType>Package</SourceType>
+      <SourceId>Meetly</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/Meetly</BasePath>
+      <RelativePath>uploads/06a3b908-b598-46fe-a356-3f42edbad755.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>qbza2rndmh</Fingerprint>
+      <Integrity>qvDHBknKECqGnGiBKqIyxGG3SqLsjLalecJzaOCTc3M=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\06a3b908-b598-46fe-a356-3f42edbad755.jpg'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\15bc33a6-a667-4321-af88-4fe99ce18c77.jpg'))">
+      <SourceType>Package</SourceType>
+      <SourceId>Meetly</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/Meetly</BasePath>
+      <RelativePath>uploads/15bc33a6-a667-4321-af88-4fe99ce18c77.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>qbza2rndmh</Fingerprint>
+      <Integrity>qvDHBknKECqGnGiBKqIyxGG3SqLsjLalecJzaOCTc3M=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\15bc33a6-a667-4321-af88-4fe99ce18c77.jpg'))</OriginalItemSpec>
+    </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\22512ce3-3a62-4ba4-996b-9878ec80e43e.png'))">
       <SourceType>Package</SourceType>
       <SourceId>Meetly</SourceId>
@@ -1169,6 +1205,42 @@
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\2b9d1c6c-cf67-4632-9a8f-dd84cd3ce467.jpg'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\4faea05c-e4bf-459f-bd97-730ccaf7861a.jpg'))">
+      <SourceType>Package</SourceType>
+      <SourceId>Meetly</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/Meetly</BasePath>
+      <RelativePath>uploads/4faea05c-e4bf-459f-bd97-730ccaf7861a.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>qbza2rndmh</Fingerprint>
+      <Integrity>qvDHBknKECqGnGiBKqIyxGG3SqLsjLalecJzaOCTc3M=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\4faea05c-e4bf-459f-bd97-730ccaf7861a.jpg'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\51398156-a74b-44a1-b294-856abc375e9e.jpg'))">
+      <SourceType>Package</SourceType>
+      <SourceId>Meetly</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/Meetly</BasePath>
+      <RelativePath>uploads/51398156-a74b-44a1-b294-856abc375e9e.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>qbza2rndmh</Fingerprint>
+      <Integrity>qvDHBknKECqGnGiBKqIyxGG3SqLsjLalecJzaOCTc3M=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\51398156-a74b-44a1-b294-856abc375e9e.jpg'))</OriginalItemSpec>
     </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\5187e5a4-4051-49ee-b578-2f35910a65f3.jpg'))">
       <SourceType>Package</SourceType>
@@ -1206,6 +1278,60 @@
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\6474f4fa-7687-4c19-91da-eed6bb8a495a.jpg'))</OriginalItemSpec>
     </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\85c1ccc3-f9d9-44da-809b-b15a35c07917.jpg'))">
+      <SourceType>Package</SourceType>
+      <SourceId>Meetly</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/Meetly</BasePath>
+      <RelativePath>uploads/85c1ccc3-f9d9-44da-809b-b15a35c07917.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>qbza2rndmh</Fingerprint>
+      <Integrity>qvDHBknKECqGnGiBKqIyxGG3SqLsjLalecJzaOCTc3M=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\85c1ccc3-f9d9-44da-809b-b15a35c07917.jpg'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\86ad60ef-58cd-4bae-a9cb-4856ff4aae2c.jpg'))">
+      <SourceType>Package</SourceType>
+      <SourceId>Meetly</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/Meetly</BasePath>
+      <RelativePath>uploads/86ad60ef-58cd-4bae-a9cb-4856ff4aae2c.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>qbza2rndmh</Fingerprint>
+      <Integrity>qvDHBknKECqGnGiBKqIyxGG3SqLsjLalecJzaOCTc3M=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\86ad60ef-58cd-4bae-a9cb-4856ff4aae2c.jpg'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\944ddb0d-5ee8-4432-ab88-c5829ca3c59b.jpg'))">
+      <SourceType>Package</SourceType>
+      <SourceId>Meetly</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/Meetly</BasePath>
+      <RelativePath>uploads/944ddb0d-5ee8-4432-ab88-c5829ca3c59b.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>qbza2rndmh</Fingerprint>
+      <Integrity>qvDHBknKECqGnGiBKqIyxGG3SqLsjLalecJzaOCTc3M=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\944ddb0d-5ee8-4432-ab88-c5829ca3c59b.jpg'))</OriginalItemSpec>
+    </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\ba3f7d1c-adae-4738-aaf4-ad002390bd27.png'))">
       <SourceType>Package</SourceType>
       <SourceId>Meetly</SourceId>
@@ -1223,6 +1349,24 @@
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\ba3f7d1c-adae-4738-aaf4-ad002390bd27.png'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\bc5f1841-d59f-4077-85a6-593903a05c74.jpg'))">
+      <SourceType>Package</SourceType>
+      <SourceId>Meetly</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/Meetly</BasePath>
+      <RelativePath>uploads/bc5f1841-d59f-4077-85a6-593903a05c74.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>qbza2rndmh</Fingerprint>
+      <Integrity>qvDHBknKECqGnGiBKqIyxGG3SqLsjLalecJzaOCTc3M=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\bc5f1841-d59f-4077-85a6-593903a05c74.jpg'))</OriginalItemSpec>
     </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\c502461d-a9b4-48b7-add5-4983283f7bcc.png'))">
       <SourceType>Package</SourceType>
